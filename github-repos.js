@@ -1,4 +1,5 @@
-//Written by John Bender for http://erlanguid.com
+//Originally written by John Bender for http://erlanguid.com
+//Modified by Matthew Phillips
 //See: http://nickelcode.com/2008/11/27/github-repo-information-in-your-webpages/
 //for an explanation of implementation and how to use it 
 //released under the GPL v2
@@ -9,7 +10,7 @@ GITHUB_PROJECTS_SELECTOR = ".github-projects";
 REPO_TEMPLATE =
     "<div class='github-repo'>"
     +   "<a href='{0}' target='_blank'>"
-    +  	  "{1}" //+ "<img class='github-repo-link-image' src='http://erlanguid.com/icons/external.png'"
+    +  	  "{1}"
     +	  "</a>"
     +"</div>";
 
